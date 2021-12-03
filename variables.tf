@@ -3,8 +3,8 @@ variable "common_tags" {
   type        = map(string)
 }
 
-variable "yaml_path" {
-  description = "path to yaml config file"
+variable "product" {
+  description = "project group name"
 }
 
 variable "location" {
